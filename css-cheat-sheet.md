@@ -58,6 +58,12 @@ Diese Suffixe werden direkt an einen Selektor angehängt:
 - Mauszeiger über Element: `:hover`
 - Wurde mal angeklickt: `:active`
 - Im Fokus: `:focus`
+- Erstes Kind: `:first-child`
+- Letztes Kind: `:last-child`
+- Nicht Selektor `xyz`: `:not(xyz)`
+- Erstes Kind zu diesem Selektors: `:first-of-type`
+- Letztes Kind zu diesem Selektors: `:last-of-type`
+- Für `n = 0,1,2,3,...`, `f(n)`-te Elemente: `:nth-child(f(n))`, e.g. `div>p:nth-child(2n+1)` ist 1., 3., 5., ... Element
 
 
 CSS-Syntax
