@@ -10,6 +10,13 @@ CSS Cheat-Sheet
 </div>
 ```
 
+<div style="background-color: #5555ff; color: #fff">
+	<h2>Hello World!</h2>
+	<p style="text-align: center;">
+		Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, <b>sed</b> diam voluptua.
+	</p>
+</div>
+
 CSS Styles
 ----------
 
@@ -33,10 +40,10 @@ Selektoren
 Verkettung von Selektoren
 -------------------------
 
-- #content h2: Alle Überschriften 2. Levels (h2-Elemente) die irgendwo innerhalb des Element mit `id="content"` liegen
-- #content > h2: Alle Überschriften 2. Levels, deren Elternelement die ID `content` hat
-- h2 + p: Alle Paragraphen (p-Elemente), die direkt auf ein h2-Element folgen
-- h2, h3: Überschriften von zweiter oder dritter Ebene (h2 oder h3)
+- `#content h2`: Alle Überschriften 2. Levels (h2-Elemente) die irgendwo innerhalb des Element mit `id="content"` liegen
+- `#content > h2`: Alle Überschriften 2. Levels, deren Elternelement die ID `content` hat
+- `h2 + p`: Alle Paragraphen (p-Elemente), die direkt auf ein h2-Element folgen
+- `h2, h3`: Überschriften von zweiter oder dritter Ebene (h2 oder h3)
 
 Beliebig kombinierbar: #content > h2 + p b:
 	Fettschrift (b) innerhalb eines Paragraphen, der auf eine 2. Überschrift folgt, und direktes Kindelement des Element mit ID `content` ist.
