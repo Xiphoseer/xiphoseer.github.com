@@ -1,0 +1,61 @@
+body, html {
+  background-color: #0066ff;
+  padding: 0;
+  margin: 0;
+  font-size: 14pt;
+  font-family: Helvetica, sans-serif;
+}
+
+h1, h2 {
+  font-weight: 50;
+}
+
+main {
+  max-width: 40rem;
+  margin: 2rem auto;
+}
+
+img.logo {
+  width: 8rem;
+  border-radius: 4rem;
+}
+
+p, dl {
+  background-color: #eee;
+  border-radius: 0.3rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+p {
+  text-align: justify;
+  padding: 1rem;
+}
+
+dl {
+  padding-bottom: 0.6rem;
+}
+
+dl dt {
+  font-weight: bold;
+  padding: 1rem 1rem 0.5rem 1rem;
+}
+
+dl dd {
+  margin-left: 0;
+  width: 100%;
+}
+
+dl dd a {
+  padding: 0.4rem 1.4rem;
+  display: block;
+}
+
+dl dd a::after {
+  content: attr(href);
+  color: #888;
+  float: right;
+}
+
+dl dd a:hover { 
+  background-color: #ddd;
+}
