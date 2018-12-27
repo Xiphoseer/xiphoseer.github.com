@@ -48,14 +48,34 @@ dl dd {
 dl dd a {
   padding: 0.4rem 1.4rem;
   display: block;
+  overflow: hidden;
 }
 
 dl dd a::after {
   content: attr(href);
   color: #888;
   float: right;
+  max-width: 100%;
+  overflow-wrap: break-word;
 }
 
 dl dd a:hover { 
   background-color: #ddd;
+}
+
+@media (max-width: 44rem) {
+  h1, h2, h3, h4, h5, h6 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  p, dl {
+    border-radius: 0;
+  }
+
+  dl dd a::after {
+    float: right;
+    text-align: left;
+    width: 100%;
+  }
 }
