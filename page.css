@@ -1,27 +1,50 @@
 body, html {
-  background-color: #0066ff;
+  /*background-color: #0066ff;*/
   padding: 0;
   margin: 0;
   font-size: 14pt;
   font-family: Helvetica, sans-serif;
 }
 
+html {
+  /*background-image: url(img/pexels-photo-207130.jpeg);*/
+  /*background-image: url(img/background-blue-clouds-1398049.jpg);*/
+  background-image: url(img/abstract-background-bark-355757.jpg);
+  /*background-color: #ddd;*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+body {
+  background-color: rgba(127,127,127,0.6);
+}
+
 h1, h2 {
   font-weight: 50;
+  background-color: #007f0e;
+  color: #fff;
+  border-radius: 2rem;
+  /*text-shadow: 1px 1px 2px #ddd;*/
+  line-height: 100%;
+  padding: 0.3rem 1rem 0.6rem 1rem;
 }
 
 main {
   max-width: 40rem;
-  margin: 2rem auto;
+  margin: 0 auto;
+  padding: 2rem 0;
 }
 
 img.logo {
   width: 8rem;
   border-radius: 4rem;
+  border: 0.2rem solid #aaa;
+  box-sizing: border-box;
 }
 
 p, dl {
-  background-color: #eee;
+  background-color: rgba(230, 230, 230, 0.9);
   border-radius: 0.3rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -49,6 +72,8 @@ dl dd a {
   padding: 0.4rem 1.4rem;
   display: block;
   overflow: hidden;
+  color: #007f0e;
+  text-decoration: none;
 }
 
 dl dd a::after {
@@ -69,7 +94,7 @@ dl dd a:hover {
     padding-right: 1rem;
   }
 
-  p, dl {
+  p, dl, h1, h2 {
     border-radius: 0;
   }
 
