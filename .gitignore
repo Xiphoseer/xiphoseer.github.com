@@ -4,5 +4,6 @@ lu-json
 lu-res
 lu-explorer
 lu-docs
+lu-script
 
 http-server.py
