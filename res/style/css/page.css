@@ -7,10 +7,7 @@ body, html {
 }
 
 html {
-  /*background-image: url(img/pexels-photo-207130.jpeg);*/
-  /*background-image: url(img/background-blue-clouds-1398049.jpg);*/
-  background-image: url(img/background.jpg);
-  /*background-color: #ddd;*/
+  background-image: url(../img/background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -43,7 +40,7 @@ img.logo {
   box-sizing: border-box;
 }
 
-p, dl {
+p, dl:not(.social), dl.social dd {
   background-color: rgba(230, 230, 230, 0.9);
   border-radius: 0.3rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -54,7 +51,7 @@ p {
   padding: 1rem;
 }
 
-dl {
+dl:not(.social) {
   padding-bottom: 0.6rem;
 }
 
@@ -63,20 +60,23 @@ dl dt {
   padding: 1rem 1rem 0.5rem 1rem;
 }
 
-dl dd {
+dl:not(.social) dd {
   margin-left: 0;
   width: 100%;
 }
 
 dl dd a {
   padding: 0.4rem 1.4rem;
-  display: block;
   overflow: hidden;
   color: #007f0e;
   text-decoration: none;
 }
 
-dl dd a::after {
+dl:not(.social) dd a {
+  display: block;
+}
+
+dl:not(.social) dd a::after {
   content: attr(href);
   color: #888;
   float: right;
@@ -84,8 +84,36 @@ dl dd a::after {
   overflow-wrap: break-word;
 }
 
-dl dd a:hover { 
+dl dd a:hover {
   background-color: #ddd;
+}
+
+dl.social {
+  display: flex;
+  font-size: 20pt;
+  padding: 0 1rem;
+  justify-content: space-between;
+}
+
+dl.social dt {
+  display: none;
+}
+
+dl.social dd + dt::before {
+  content: "|";
+}
+
+dl.social dd {
+  margin: 0;
+  display: block;
+  flex: 0 1 auto;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+dl.social dd a {
+  display: block;
+  overflow: hidden;
 }
 
 @media (max-width: 44rem) {
