@@ -131,4 +131,40 @@ dl.social dd a {
     text-align: left;
     width: 100%;
   }
+
+  dl.social {
+    flex-direction: column;
+  }
+
+  /*dl.social dt {
+    display: block;
+  }*/
+
+  dl.social dd + dt::before {
+    content: unset;
+  }
+
+  dl.social dd {
+    display: block;
+    margin: 0.2rem 0;
+  }
+
+  dl.social dd a {
+    padding-left: 0.7rem;
+  }
+
+  dl.social dd a i {
+    box-sizing: border-box;
+    width: 2rem;
+    text-align: center;
+  }
+
+  dl.social dd a::after {
+    content: "" attr(title);
+    width: initial;
+    float: none;
+    margin-left: 0.5rem;
+    font-weight: bold;
+    color: #333;
+  }
 }
