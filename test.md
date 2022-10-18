@@ -1,3 +1,8 @@
+---
+title: Xiphoseer
+layout: green
+---
+
 # Xiphoseer
 
 Hey there! My name is <em>Daniel G. Seiler</em>, also known as **Xiphoseer**.
