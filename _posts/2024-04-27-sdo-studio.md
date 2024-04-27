@@ -4,7 +4,7 @@ title: SDO Studio v0.0.1
 ---
 
 During the pandemic I created a small tool that would read and
-transform documents created using [Signum!][ASH-SIG] for the
+transform documents created using [Signum!][ASH-SIG] 1/2 for the
 Atari ST. It's a CLI application, initially created for debugging
 the format, so the user experience is suboptimal.
 
