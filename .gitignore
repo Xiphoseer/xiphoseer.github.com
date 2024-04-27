@@ -7,3 +7,9 @@ lu-docs
 lu-script
 
 http-server.py
+
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor

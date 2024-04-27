@@ -15,9 +15,10 @@ html {
 
 body {
   background-color: rgba(127,127,127,0.6);
+  min-height: 100vh;
 }
 
-h1, h2 {
+main > section > h1, main > section > h2 {
   font-weight: 50;
   background-color: #007f0e;
   color: #fff;
@@ -40,15 +41,30 @@ img.logo {
   box-sizing: border-box;
 }
 
-p, dl:not(.social), dl.social dd {
+.center {
+  margin: 0 auto;
+  float: none;
+  width: min-content;
+  display: block;
+}
+
+.content, .e-content, dl:not(.social), dl.social dd {
   background-color: rgba(230, 230, 230, 0.9);
   border-radius: 0.3rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-p {
+.post-meta {
+  background: #444;
+  color: white;
+  padding: 0.1rem 1rem;
+  border-radius: 1rem;
+}
+
+.content, .e-content {
   text-align: justify;
-  padding: 1rem;
+  padding: 0.01px 1rem;
+  margin-bottom: 1rem;
 }
 
 dl:not(.social) {
@@ -116,13 +132,18 @@ dl.social dd a {
   overflow: hidden;
 }
 
+div.highlight {
+  overflow-x: auto;
+  max-width: 100%;
+}
+
 @media (max-width: 44rem) {
   h1, h2, h3, h4, h5, h6 {
     padding-left: 1rem;
     padding-right: 1rem;
   }
 
-  p, dl, h1, h2 {
+  p, dl, h1, h2, .content, .e-content {
     border-radius: 0;
   }
 

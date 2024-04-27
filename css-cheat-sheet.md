@@ -1,5 +1,6 @@
-CSS Cheat-Sheet
-===============
+---
+title: CSS Cheat-Sheet
+---
 
 ```html
 <div id="content" class="foo bar">
