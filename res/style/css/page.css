@@ -18,7 +18,7 @@ body {
   min-height: 100vh;
 }
 
-main > section > h1, main > section > h2 {
+main > section > h1, h1.post-title, main > section > h2 {
   font-weight: 50;
   background-color: #007f0e;
   color: #fff;
@@ -26,6 +26,10 @@ main > section > h1, main > section > h2 {
   /*text-shadow: 1px 1px 2px #ddd;*/
   line-height: 100%;
   padding: 0.6rem 1rem 0.3rem 1rem;
+}
+
+article img {
+  max-width: 100%;
 }
 
 main {
