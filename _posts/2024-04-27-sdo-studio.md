@@ -1,6 +1,7 @@
 ---
 layout: post
 title: SDO Studio v0.0.1
+author: Xiphoseer
 ---
 
 During the pandemic I created a small tool that would read and
