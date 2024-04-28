@@ -19,13 +19,12 @@ body {
 }
 
 main > section > h1, h1.post-title, main > section > h2 {
-  font-weight: 50;
+  font-weight: 100;
   background-color: #007f0e;
   color: #fff;
-  border-radius: 2rem;
   /*text-shadow: 1px 1px 2px #ddd;*/
   line-height: 100%;
-  padding: 0.6rem 1rem 0.3rem 1rem;
+  padding: 0.6rem 1rem;
 }
 
 article img {
@@ -62,7 +61,6 @@ img.logo {
   background: #444;
   color: white;
   padding: 0.1rem 1rem;
-  border-radius: 1rem;
 }
 
 .content, .e-content {
@@ -139,6 +137,16 @@ dl.social dd a {
 div.highlight {
   overflow-x: auto;
   max-width: 100%;
+}
+
+@media (min-width: 44.001rem) {
+  main > section > h1, h1.post-title, main > section > h2 {
+    border-radius: 2rem;
+  }
+
+  .post-meta {
+    border-radius: 1rem;
+  }
 }
 
 @media (max-width: 44rem) {
