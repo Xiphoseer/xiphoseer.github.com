@@ -17,4 +17,4 @@ If we look those up in CP437, we get `├` (U+251C) for 0xC3 and `╝` (U+255D) 
 [CP437]: https://en.wikipedia.org/wiki/Code_page_437
 [CP850]: https://en.wikipedia.org/wiki/Code_page_850
 [CP852]: https://en.wikipedia.org/wiki/Code_page_852
-[U+00FC]: https://www.compart.com/de/unicode/U+00FC
+[U+00FC]: https://www.compart.com/en/unicode/U+00FC
