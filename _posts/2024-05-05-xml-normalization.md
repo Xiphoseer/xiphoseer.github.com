@@ -86,11 +86,10 @@ Another is
 Consider the following XML:
 
 ```xml
-<mission id="1855" isMission="true" definedType="Location" definedSubtype="Avant Gardens" uiSortOrder="240" gateVersion="nexustower">
+<mission id="1855" isMission="true" definedType="Location" definedSubtype="Avant Gardens" uiSortOrder="240" legoScore="20" gateVersion="nexustower">
     <name xml:lang="en-US">Monumental Repairs</name>
     <offerObjectID>6011</offerObjectID>
     <targetObjectID>6011</targetObjectID>
-    <legoScore>20</legoScore>
     <rewardCurrency>250</rewardCurrency>
     <prereqMissionID>1854</prereqMissionID>
     <missionText gateVersion="freetrial">
