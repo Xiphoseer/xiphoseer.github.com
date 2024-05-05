@@ -138,7 +138,7 @@ represent only the columns that are filled with data, but we do so as child elem
 This has the benefit of collapsing the entire `rewardX` columns into a single
 `rewardCurrency` element in the case of this particular mission.
 
-This isn't really practical if the data storage is a set of CSV files, but once
+It isn't really practical if the data storage is a set of CSV files, but once
 you start talking about columnar data storage, the distinction quickly disappears.
 Thus:
 
@@ -156,9 +156,9 @@ time.
 
 The next recommendation relates to the use of `xml:lang`:
 
-> The standard `xml:lang` attribute should be used whenever there is text content
+> The standard `xml:lang` attribute SHOULD be used whenever there is text content
 > int the element and its children and it is guaranteed to be text in one language.
-> In that case, the most precise language tag should be used.
+> In that case, the most precise language tag SHOULD be used.
 
 In the case above, it's always `xml:lang="en-US"` but depending on context a simple
 language subtag such as `en` may also be appropriate.
