@@ -56,6 +56,8 @@ as only considering the namespace and the local part.
 Normal QNames (e.g. `example:invoice`) are also allowed as EQNames but require the namespace to be
 defined before used as a Terminal in the XPath expression.
 
+See also: [QName-to-URI mapping]({% post_url 2024-05-11-qname-to-uri %})
+
 [quick-xml]: https://crates.io/crates/quick-xml
 [XPath]: https://www.w3.org/TR/xpath
 [XPath 3.1]: https://www.w3.org/TR/xpath-31/#terminal-symbols
