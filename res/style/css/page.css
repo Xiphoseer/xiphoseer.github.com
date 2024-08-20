@@ -83,11 +83,22 @@ dl:not(.social) dd {
   width: 100%;
 }
 
-dl dd a {
-  padding: 0.4rem 1.4rem;
+p > a::before {
+  /* content: "\21D2\00A0"; */
+}
+
+a {
   overflow: hidden;
   color: #007f0e;
   text-decoration: none;
+}
+
+a:hover {
+  color: #108f1e;
+}
+
+dl dd a {
+  padding: 0.4rem 1.4rem;
 }
 
 dl:not(.social) dd a {
