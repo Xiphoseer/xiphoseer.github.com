@@ -65,6 +65,11 @@ table.flow32 {
     /* #000000 */
 }
 
+.start.K.merge-right-B {
+    background-image: url('Start_K_Right_B.png');
+    /* #000000 */
+}
+
 .node.A {
     background-image: url('Node_A.png');
 }
@@ -109,12 +114,20 @@ table.flow32 {
     background-image: url('Node_J.png');
 }
 
+.node.K {
+    background-image: url('Node_K.png');
+}
+
 .line.A {
     background-image: url('Line_A.png');
 }
 
 .line.B {
     background-image: url('Line_B.png');
+}
+
+.line.B.pass-I {
+    background-image: url('Line_B_Pass_I.png');
 }
 
 .line.C {
@@ -149,8 +162,8 @@ table.flow32 {
     background-image: url('Line_J.png');
 }
 
-.line.B.pass-I {
-    background-image: url('Line_B_Pass_I.png');
+.line.K {
+    background-image: url('Line_K.png');
 }
 
 .split.E {
@@ -255,4 +268,8 @@ table.flow32 {
 
 .end.J {
     background-image: url('End_J.png');
+}
+
+.end.K {
+    background-image: url('End_K.png');
 }
