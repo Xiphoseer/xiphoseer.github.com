@@ -1,9 +1,8 @@
 ---
 layout: post
 author: Xiphoseer
+title: Font Copyright
 ---
-
-# Font Copyright
 
 I've been reading about font copyright, especially in german law in order
 to get a better understanding of all the rights and protections applicable
