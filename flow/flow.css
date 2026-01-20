@@ -1,0 +1,258 @@
+body {
+    background-color: #EEE;
+    font-family: sans-serif;
+}
+
+.flow32 .fi {
+    width: 32px;
+    height: 32px;
+    background-size: 32px;
+    padding: 0;
+}
+
+.flow32 .v {
+    font-weight: bold;
+    padding-right: 5px;
+}
+
+table.flow32 {
+    border: 0;
+    border-spacing: 0;
+    margin: 0 auto;
+}
+
+.start.A {
+    background-image: url('Start_A.png');
+}
+
+.start.B {
+    background-image: url('Start_B.png');
+    /* #D45500 */
+}
+
+.start.merge-left-B.C {
+    background-image: url('Start_C_Left_B.png');
+    /* C #008000 */
+}
+
+.start.merge-left-D.E {
+    background-image: url('Start_E_Left_D.png');
+}
+
+.start.merge-left-E.F {
+    background-image: url('Start_F_Left_E.png');
+}
+
+.start.merge-right-A.D {
+    background-image: url('Start_D_Right_A.png');
+}
+
+.start.merge-right-E.G {
+    background-image: url('Start_G_Right_E.png');
+}
+
+.start.merge-right-F.H {
+    background-image: url('Start_H_Right_F.png');
+}
+
+.start.I {
+    background-image: url('Start_I.png');
+    /* #800080 */
+}
+
+.start.J {
+    background-image: url('Start_J.png');
+    /* #000000 */
+}
+
+.node.A {
+    background-image: url('Node_A.png');
+}
+
+.node.B {
+    background-image: url('Node_B.png');
+}
+
+.node.C {
+    background-image: url('Node_C.png');
+}
+
+.node.C.merge-left-I {
+    background-image: url('Node_C_Left_I.png');
+}
+
+.node.C.merge-left-B {
+    background-image: url('Node_C_Left_B.png');
+}
+
+.node.D {
+    background-image: url('Node_D.png');
+}
+
+.node.E {
+    background-image: url('Node_E.png');
+}
+
+.node.F {
+    background-image: url('Node_F.png');
+}
+
+.node.G {
+    background-image: url('Node_G.png');
+}
+
+.node.I {
+    background-image: url('Node_I.png');
+}
+
+.node.J {
+    background-image: url('Node_J.png');
+}
+
+.line.A {
+    background-image: url('Line_A.png');
+}
+
+.line.B {
+    background-image: url('Line_B.png');
+}
+
+.line.C {
+    background-image: url('Line_C.png');
+}
+
+.line.D {
+    background-image: url('Line_D.png');
+}
+
+.line.E {
+    background-image: url('Line_E.png');
+}
+
+.line.F {
+    background-image: url('Line_F.png');
+}
+
+.line.G {
+    background-image: url('Line_G.png');
+}
+
+.line.H {
+    background-image: url('Line_H.png');
+}
+
+.line.I {
+    background-image: url('Line_I.png');
+}
+
+.line.J {
+    background-image: url('Line_J.png');
+}
+
+.line.B.pass-I {
+    background-image: url('Line_B_Pass_I.png');
+}
+
+.split.E {
+    background-image: url('Split_E.png');
+}
+
+.split-left.A {
+    background-image: url('Split_Left_A.png');
+}
+
+.split-left.B {
+    background-image: url('Split_Left_B.png');
+}
+
+.split-left.C {
+    background-image: url('Split_Left_C.png');
+}
+
+.split-left.D {
+    background-image: url('Split_Left_D.png');
+}
+
+.split-left.F {
+    background-image: url('Split_Left_F.png');
+}
+
+.split-right.B {
+    background-image: url('Split_Right_B.png');
+}
+
+.split-right.D {
+    background-image: url('Split_Right_D.png');
+}
+
+.split-right.E {
+    background-image: url('Split_Right_E.png');
+}
+
+.split-right.F {
+    background-image: url('Split_Right_F.png');
+}
+
+.split-right.G {
+    background-image: url('Split_Right_G.png');
+}
+
+.split-right.I {
+    background-image: url('Split_Right_I.png');
+}
+
+.merge-right-B.A {
+    background-image: url('Merge_A_Right_B.png');
+}
+
+.merge-right-C.F {
+    background-image: url('Merge_F_Right_C.png');
+}
+
+.merge-left-G.merge-right-F.E {
+    background-image: url('Merge_E_Left_G_Right_F.png');
+}
+
+.merge-left-F.C {
+    background-image: url('Merge_C_Left_F.png');
+}
+
+.end.A {
+    background-image: url('End_A.png');
+}
+
+.end.B {
+    background-image: url('End_B.png');
+}
+
+.end.C {
+    background-image: url('End_C.png');
+}
+
+.end.D {
+    background-image: url('End_D.png');
+}
+
+.end.E {
+    background-image: url('End_E.png');
+}
+
+.end.F {
+    background-image: url('End_F.png');
+}
+
+.end.G {
+    background-image: url('End_G.png');
+}
+
+.end.H {
+    background-image: url('End_H.png');
+}
+
+.end.I {
+    background-image: url('End_I.png');
+}
+
+.end.J {
+    background-image: url('End_J.png');
+}

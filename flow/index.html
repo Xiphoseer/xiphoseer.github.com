@@ -1,345 +1,333 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<style type="text/css">
-			body{
-				background-color: #EEE;
-				font-family: sans-serif;
-			}
-			
-			.flow32 .fi{
-				width: 32px;
-				height: 32px;
-				background-size: 32px;
-				padding: 0;
-			}
-			
-			.flow32 .v{
-				font-weight: bold;
-				padding-right: 5px;
-			}
-			
-			table.flow32{
-				border: 0;
-				border-spacing: 0;
-				margin: 0 auto;
-			}
-		
-			.start.A{
-				background-image: url('Start_A.png');
-			}
-			
-			.start.B{
-				background-image: url('Start_B.png');
-			}
-			
-			.start.merge-left-B.C{
-				background-image: url('Start_C_Left_B.png');
-			}
-			
-			.start.merge-left-D.E{
-				background-image: url('Start_E_Left_D.png');
-			}
-			
-			.start.merge-left-E.F{
-				background-image: url('Start_F_Left_E.png');
-			}
-			
-			.start.merge-right-A.D{
-				background-image: url('Start_D_Right_A.png');
-			}
-			
-			.start.merge-right-E.G{
-				background-image: url('Start_G_Right_E.png');
-			}
-			
-			.start.merge-right-F.H{
-				background-image: url('Start_H_Right_F.png');
-			}
-			
-			.node.A{
-				background-image: url('Node_A.png');
-			}
-			
-			.node.C{
-				background-image: url('Node_C.png');
-			}
-			
-			.node.D{
-				background-image: url('Node_D.png');
-			}
-			
-			.node.E{
-				background-image: url('Node_E.png');
-			}
-			
-			.node.F{
-				background-image: url('Node_F.png');
-			}
-			
-			.node.G{
-				background-image: url('Node_G.png');
-			}
-			
-			.line.A{
-				background-image: url('Line_A.png');
-			}
-			
-			.line.B{
-				background-image: url('Line_B.png');
-			}
-			
-			.line.C{
-				background-image: url('Line_C.png');
-			}
-			
-			.line.D{
-				background-image: url('Line_D.png');
-			}
-			
-			.line.E{
-				background-image: url('Line_E.png');
-			}
-			
-			.line.F{
-				background-image: url('Line_F.png');
-			}
-			
-			.line.G{
-				background-image: url('Line_G.png');
-			}
-			
-			.line.H{
-				background-image: url('Line_H.png');
-			}
-			
-			.split.E{
-				background-image: url('Split_E.png');
-			}
-			
-			.split-left.A{
-				background-image: url('Split_Left_A.png');
-			}
-			
-			.split-left.B{
-				background-image: url('Split_Left_B.png');
-			}
-			
-			.split-left.C{
-				background-image: url('Split_Left_C.png');
-			}
-			
-			.split-left.D{
-				background-image: url('Split_Left_D.png');
-			}
-			
-			.split-left.F{
-				background-image: url('Split_Left_F.png');
-			}
-			
-			.split-right.B{
-				background-image: url('Split_Right_B.png');
-			}
-			
-			.split-right.D{
-				background-image: url('Split_Right_D.png');
-			}
-			
-			.split-right.E{
-				background-image: url('Split_Right_E.png');
-			}
-			
-			.split-right.F{
-				background-image: url('Split_Right_F.png');
-			}
-			
-			.split-right.G{
-				background-image: url('Split_Right_G.png');
-			}
-			
-			.merge-right-B.A{
-				background-image: url('Merge_A_Right_B.png');
-			}
-			
-			.merge-right-C.F{
-				background-image: url('Merge_F_Right_C.png');
-			}
-			
-			.merge-left-G.merge-right-F.E{
-				background-image: url('Merge_E_Left_G_Right_F.png');
-			}
-			
-			.merge-left-F.C{
-				background-image: url('Merge_C_Left_F.png');
-			}
-			
-			.end.A{
-				background-image: url('End_A.png');
-			}
-			
-			.end.B{
-				background-image: url('End_B.png');
-			}
-			
-			.end.C{
-				background-image: url('End_C.png');
-			}
-			
-			.end.D{
-				background-image: url('End_D.png');
-			}
-			
-			.end.E{
-				background-image: url('End_E.png');
-			}
-		</style>
+		<link rel="stylesheet" type="text/css" href="flow.css">
 	</head>
 	<body>
 		<h1 style="text-align: center;"><br>LU development history</h1>
 		<table class="flow32">
 			<tr>
-				<td class="fi"/>
-				<td class="fi start A"/>
-				<td class="fi"/>
-				<td class="fi"/>
+				<td class="fi"></td>
+				<td class="fi start A"></td>
+				<td class="fi"></td>
+				<td class="fi"></td>
 				<td class="v">v0.1</td>
 				<td>raffa505 creates the LUNIServer Project</td>
 			</tr>
 			<tr>
-				<td class="fi"/>
-				<td class="fi node A"/>
-				<td class="fi"/>
-				<td class="fi"/>
+				<td class="fi"></td>
+				<td class="fi node A"></td>
+				<td class="fi"></td>
+				<td class="fi"></td>
 				<td class="v">v0.2</td>
 				<td>Initial C++ Project</td>
 			</tr>
 			<tr>
-				<td class="fi"/>
-				<td class="fi line A"/>
-				<td class="fi start B"/>
-				<td class="fi"/>
+				<td class="fi"></td>
+				<td class="fi line A"></td>
+				<td class="fi start B"></td>
+				<td class="fi"></td>
 				<td class="v">v0.3</td>
 				<td>Humanoid creates the first RakNet Test Application</td>
 			</tr>
 			<tr>
-				<td class="fi"/>
-				<td class="fi line A"/>
-				<td class="fi split-right B"/>
-				<td class="fi start C merge-left-B"/>
+				<td class="fi"></td>
+				<td class="fi line A"></td>
+				<td class="fi split-right B"></td>
+				<td class="fi start C merge-left-B"></td>
 				<td></td>
 				<td>Darwin uses the basic RakNet code to start DLU</td>
 			</tr>
 			<tr>
-				<td class="fi"/>
-				<td class="fi merge-right-B A"/>
-				<td class="fi split-left B"/>
-				<td class="fi line C"/>
+				<td class="fi"></td>
+				<td class="fi merge-right-B A"></td>
+				<td class="fi split-left B"></td>
+				<td class="fi line C"></td>
 				<td></td>
 				<td>Raffa integrated RakNet into his source, adding a threading system</td>
 			</tr>
 			<tr>
-				<td class="fi start merge-right-A D"/>
-				<td class="fi split-left A"/>
-				<td class="fi line B"/>
-				<td class="fi line C"/>
+				<td class="fi start merge-right-A D"></td>
+				<td class="fi split-left A"></td>
+				<td class="fi line B"></td>
+				<td class="fi line C"></td>
 				<td class="v">v0.4</td>
 				<td>Timtech and Jon002 publish a slightly modified version that loads worlds</td>
 			</tr>
 			<tr>
-				<td class="fi line D"/>
-				<td class="fi end A"/>
-				<td class="fi end B"/>
-				<td class="fi line C"/>
+				<td class="fi line D"></td>
+				<td class="fi end A"></td>
+				<td class="fi end B"></td>
+				<td class="fi line C"></td>
 				<td></td>
 				<td>Raffa quit, humanoid continued to work in private</td>
 			</tr>
 			<tr>
-				<td class="fi node D"/>
-				<td class="fi"/>
-				<td class="fi"/>
-				<td class="fi line C"/>
+				<td class="fi node D"></td>
+				<td class="fi"></td>
+				<td class="fi"></td>
+				<td class="fi line C"></td>
 				<td class="v">v0.5</td>
 				<td>Improvements by Jon002</td>
 			</tr>
 			<tr>
-				<td class="fi node D"/>
-				<td class="fi"/>
-				<td class="fi"/>
-				<td class="fi line C"/>
+				<td class="fi node D"></td>
+				<td class="fi"></td>
+				<td class="fi"></td>
+				<td class="fi line C"></td>
 				<td class="v">v0.6</td>
-				<td>Less Static Packets &amp; MySQL necessary</td>
+				<td>Fewer Static Packets &amp; MySQL necessary</td>
 			</tr>
 			<tr>
-				<td class="fi split-right D"/>
-				<td class="fi start merge-left-D E"/>
-				<td class="fi"/>
-				<td class="fi node C"/>
+				<td class="fi split-right D"></td>
+				<td class="fi start merge-left-D E"></td>
+				<td class="fi"></td>
+				<td class="fi node C"></td>
 				<td></td>
 				<td>Xiphoseer &amp; Darwin introduced multiplayer independantly</td>
 			</tr>
 			<tr>
-				<td class="fi end D"/>
-				<td class="fi node E"/>
-				<td class="fi"/>
-				<td class="fi node C"/>
+				<td class="fi end D"></td>
+				<td class="fi node E"></td>
+				<td class="fi"></td>
+				<td class="fi node C"></td>
 				<td></td>
 				<td>Both servers add features</td>
 			</tr>
 			<tr>
-				<td class="fi start merge-right-E G"/>
-				<td class="fi split E"/>
-				<td class="fi start merge-left-E F"/>
-				<td class="fi line C"/>
+				<td class="fi start merge-right-E G"></td>
+				<td class="fi split E"></td>
+				<td class="fi start merge-left-E F"></td>
+				<td class="fi line C"></td>
 				<td></td>
 				<td>Jon002 and CuzItsJonny work on Xiphoseers code</td>
 			</tr>
 			<tr>
-				<td class="fi split-right G"/>
-				<td class="fi merge-left-G merge-right-F E"/>
-				<td class="fi split-left F"/>
-				<td class="fi line C"/>
+				<td class="fi split-right G"></td>
+				<td class="fi merge-left-G merge-right-F E"></td>
+				<td class="fi split-left F"></td>
+				<td class="fi line C"></td>
 				<td></td>
 				<td>and contribute to the project</td>
 			</tr>
 			<tr>
-				<td class="fi node G"/>
-				<td class="fi line E"/>
-				<td class="fi node F"/>
-				<td class="fi node C"/>
+				<td class="fi node G"></td>
+				<td class="fi line E"></td>
+				<td class="fi node F"></td>
+				<td class="fi node C"></td>
 				<td></td>
 				<td>Jonny, Jon &amp; Darwin introduce static NPCs seperately</td>
 			</tr>
 			<tr>
-				<td class="fi line G"/>
-				<td class="fi end E"/>
-				<td class="fi line F"/>
-				<td class="fi line C"/>
+				<td class="fi node G"></td>
+				<td class="fi line E"></td>
+				<td class="fi line F"></td>
+				<td class="fi line C"></td>
+				<td></td>
+				<td>Jonny creates JALUS</td>
+			</tr>
+			<tr>
+				<td class="fi line G"></td>
+				<td class="fi end E"></td>
+				<td class="fi line F"></td>
+				<td class="fi line C"></td>
 				<td></td>
 				<td>Matt, Jon &amp; Xiphoseer join DLU</td>
 			</tr>
 			<tr>
-				<td class="fi line G"/>
-				<td class="fi start merge-right-F H"/>
-				<td class="fi split-left F"/>
-				<td class="fi line C"/>
+				<td class="fi line G"></td>
+				<td class="fi start merge-right-F H"></td>
+				<td class="fi split-left F"></td>
+				<td class="fi line C"></td>
 				<td></td>
 				<td>Egmo uses Jon's code with next to no modifications</td>
 			</tr>
 			<tr>
-				<td class="fi line G"/>
-				<td class="fi line H"/>
-				<td class="fi merge-right-C F"/>
-				<td class="fi split-left C"/>
+				<td class="fi line G"></td>
+				<td class="fi end H"></td>
+				<td class="fi merge-right-C F"></td>
+				<td class="fi split-left C"></td>
 				<td></td>
 				<td>Jon adds code from DLU for testing, creating JLU</td>
 			</tr>
 			<tr>
-				<td class="fi line G"/>
-				<td class="fi line H"/>
-				<td class="fi split-right F"/>
-				<td class="fi merge-left-F C"/>
+				<td class="fi line G"></td>
+				<td class="fi"></td>
+				<td class="fi split-right F"></td>
+				<td class="fi merge-left-F C"></td>
 				<td></td>
 				<td>Some useful parts of JLU get included in DLU</td>
+			</tr>
+			<tr>
+				<td class="fi end G"></td>
+				<td class="fi"></td>
+				<td class="fi end F"></td>
+				<td class="fi line C"></td>
+				<td class="v"></td>
+				<td><i>... what happened around here<a href="https://github.com/Xiphoseer/xiphoseer.github.com/edit/main/flow/index.html">?</a></i></td>
+			</tr>
+			<tr>
+				<td class="fi start J"></td>
+				<td class="fi"></td>
+				<td class="fi"></td>
+				<td class="fi line C"></td>
+				<td class="v"></td>
+				<td>LU Reborn (LUR) is announced</td>
+			</tr>
+			<tr>
+				<td class="fi line J"></td>
+				<td class="fi"></td>
+				<td class="fi"></td>
+				<td class="fi node C"></td>
+				<td class="v"></td>
+				<td>DLU is announced officially</td>
+			</tr>
+			<tr>
+				<td class="fi line J"></td>
+				<td class="fi"></td>
+				<td class="fi start B"></td>
+				<td class="fi line C"></td>
+				<td class="v"></td>
+				<td>lcdru alpha is announced</td>
+			</tr>
+			<tr>
+				<td class="fi line J"></td>
+				<td class="fi"></td>
+				<td class="fi line B"></td>
+				<td class="fi line C"></td>
+				<td class="v">06/2018</td>
+				<td><a href="https://lusprojects.github.io">lusprojects</a> goes online</td>
+			</tr>
+			<tr>
+				<td class="fi node J"></td>
+				<td class="fi"></td>
+				<td class="fi line B"></td>
+				<td class="fi line C"></td>
+				<td class="v"></td>
+				<td>LUR becomes OpCrux</td>
+			</tr>
+			<tr>
+				<td class="fi line J"></td>
+				<td class="fi"></td>
+				<td class="fi node B"></td>
+				<td class="fi line C"></td>
+				<td class="v"></td>
+				<td>lcdru opens closed beta</td>
+			</tr>
+			<tr>
+				<td class="fi line J"></td>
+				<td class="fi start I"></td>
+				<td class="fi line B"></td>
+				<td class="fi line C"></td>
+				<td class="v"></td>
+				<td>Yui creates <a href="https://github.com/UchuServer/Uchu">Uchu</a></td>
+			</tr>
+			<tr>
+				<td class="fi line J"></td>
+				<td class="fi node I"></td>
+				<td class="fi line B"></td>
+				<td class="fi line C"></td>
+				<td class="v"></td>
+				<td>Mick and Wincent contribute to Uchu</td>
+			</tr>
+			<tr>
+				<td class="fi line J"></td>
+				<td class="fi line I"></td>
+				<td class="fi line B"></td>
+				<td class="fi node C"></td>
+				<td class="v">DLUv3</td>
+				<td>Avery and Darwin rewrite the DLU engine</td>
+			</tr>
+			<tr>
+				<td class="fi line J"></td>
+				<td class="fi split-right I"></td>
+				<td class="fi line B pass-I"></td>
+				<td class="fi node C merge-left-I"></td>
+				<td class="v"></td>
+				<td>Mick and Wincent join DLU</td>
+			</tr>
+			<tr>
+				<td class="fi line J"></td>
+				<td class="fi node I"></td>
+				<td class="fi line B"></td>
+				<td class="fi line C"></td>
+				<td class="v"></td>
+				<td>Mick discontinues the Uchu test server</td>
+			</tr>
+			<tr>
+				<td class="fi node J"></td>
+				<td class="fi line I"></td>
+				<td class="fi line B"></td>
+				<td class="fi line C"></td>
+				<td class="v"></td>
+				<td>OpCrux is <a href="https://github.com/SimonNitzsche/OpCrux-Server">open sourced</a></td>
+			</tr>
+			<tr>
+				<td class="fi line J"></td>
+				<td class="fi line I"></td>
+				<td class="fi split-right B"></td>
+				<td class="fi node C merge-left-B"></td>
+				<td class="v"></td>
+				<td>lcdr joins DLU</td>
+			</tr>
+			<tr>
+				<td class="fi line J"></td>
+				<td class="fi line I"></td>
+				<td class="fi line B"></td>
+				<td class="fi node C"></td>
+				<td class="v">12/2021</td>
+				<td>
+					<a href="https://darkflameuniverse.org">DLU</a> is
+					<a href="https://github.com/DarkflameUniverse/DarkflameServer">open sourced</a>
+				</td>
+			</tr>
+			<tr>
+				<td class="fi line J"></td>
+				<td class="fi line I"></td>
+				<td class="fi node B"></td>
+				<td class="fi line C"></td>
+				<td class="v"></td>
+				<td>lcdru closes its beta server</td>
+			</tr>
+			<tr>
+				<td class="fi line J"></td>
+				<td class="fi line I"></td>
+				<td class="fi end B"></td>
+				<td class="fi line C"></td>
+				<td class="v"></td>
+				<td>lcdru is <a href="https://github.com/lcdr/luserver">open sourced</a></td>
+			</tr>
+			<tr>
+				<td class="fi end J"></td>
+				<td class="fi line I"></td>
+				<td class="fi"></td>
+				<td class="fi line C"></td>
+				<td class="v"></td>
+				<td>OpCrux closes its beta server</td>
+			</tr>
+			<tr>
+				<td class="fi"></td>
+				<td class="fi line I"></td>
+				<td class="fi"></td>
+				<td class="fi node C"></td>
+				<td class="v">DLU 2.0</td>
+				<td>DLU provides pre-built binaries w/ <a href="https://github.com/DarkflameUniverse/DarkflameServer/releases/tag/v2.0.0">many contributions</a></td>
+			</tr>
+			<tr>
+				<td class="fi"></td>
+				<td class="fi line I"></td>
+				<td class="fi"></td>
+				<td class="fi node C"></td>
+				<td class="v"></td>
+				<td>Emosewa and Aronwk maintain DLU</td>
+			</tr>
+			<tr>
+				<td class="fi"></td>
+				<td class="fi line I"></td>
+				<td class="fi"></td>
+				<td class="fi node C"></td>
+				<td class="v">DLU 3.0</td>
+				<td>Emosewa adds SQlite mode to DLU</td>
 			</tr>
 		</table>
 	</body>
