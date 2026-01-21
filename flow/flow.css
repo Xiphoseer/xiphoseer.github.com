@@ -37,6 +37,12 @@ table.flow32 {
 
 .start.merge-left-D.E {
     background-image: url('Start_E_Left_D.png');
+    /* E #AA0000 */
+}
+
+.start.merge-right-D.E {
+    background-image: url('Start_E_Right_D.png');
+    /* E #AA0000 */
 }
 
 .start.merge-left-E.F {
@@ -45,6 +51,11 @@ table.flow32 {
 
 .start.merge-right-A.D {
     background-image: url('Start_D_Right_A.png');
+    /* D #00FFFF */
+}
+
+.start.merge-left-A.D {
+    background-image: url('Start_D_Left_A.png');
 }
 
 .start.merge-right-E.G {
@@ -126,6 +137,14 @@ table.flow32 {
     background-image: url('Line_B.png');
 }
 
+.line.B.pass-C {
+    background-image: url('Line_B_Pass_C.png');
+}
+
+.line.B.pass-F {
+    background-image: url('Line_B_Pass_F.png');
+}
+
 .line.B.pass-I {
     background-image: url('Line_B_Pass_I.png');
 }
@@ -166,6 +185,10 @@ table.flow32 {
     background-image: url('Line_K.png');
 }
 
+.pass-B {
+    background-image: url('Pass_B.png');
+}
+
 .split.E {
     background-image: url('Split_E.png');
 }
@@ -188,6 +211,10 @@ table.flow32 {
 
 .split-left.F {
     background-image: url('Split_Left_F.png');
+}
+
+.split-right.A {
+    background-image: url('Split_Right_A.png');
 }
 
 .split-right.B {
