@@ -117,6 +117,10 @@ table.flow32 {
     background-image: url('Node_G.png');
 }
 
+.node.H {
+    background-image: url('Node_H.png');
+}
+
 .node.I {
     background-image: url('Node_I.png');
 }
