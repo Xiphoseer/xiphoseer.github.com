@@ -50,7 +50,11 @@ table.flow32 {
     /* E #AA0000 */
 }
 
-.start.merge-left-E.F {
+.start.F {
+    background-image: url('Start_F.png');
+}
+
+.start.F.merge-left-E {
     background-image: url('Start_F_Left_E.png');
 }
 
@@ -67,7 +71,11 @@ table.flow32 {
     background-image: url('Start_G_Right_E.png');
 }
 
-.start.merge-right-F.H {
+.start.H {
+    background-image: url('Start_H.png');
+}
+
+.start.H.merge-right-F {
     background-image: url('Start_H_Right_F.png');
 }
 
@@ -137,6 +145,10 @@ table.flow32 {
 
 .node.H {
     background-image: url('Node_H.png');
+}
+
+.node.H.merge-left-F {
+    background-image: url('Node_H_Left_F.png');
 }
 
 .node.I {
