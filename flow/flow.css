@@ -30,8 +30,13 @@ table.flow32 {
     /* #D45500 */
 }
 
-.start.merge-left-B.C {
+.start.C.merge-left-B {
     background-image: url('Start_C_Left_B.png');
+    /* C #008000 */
+}
+
+.start.C.merge-left-M {
+    background-image: url('Start_C_Left_M.png');
     /* C #008000 */
 }
 
@@ -58,7 +63,7 @@ table.flow32 {
     background-image: url('Start_D_Left_A.png');
 }
 
-.start.merge-right-E.G {
+.start.G.merge-right-E {
     background-image: url('Start_G_Right_E.png');
 }
 
@@ -84,6 +89,14 @@ table.flow32 {
 .start.K.merge-right-B {
     background-image: url('Start_K_Right_B.png');
     /* #000000 */
+}
+
+.start.L {
+    background-image: url('Start_L.png');
+}
+
+.start.M {
+    background-image: url('Start_M.png');
 }
 
 .node.A {
@@ -136,6 +149,14 @@ table.flow32 {
 
 .node.K {
     background-image: url('Node_K.png');
+}
+
+.node.L {
+    background-image: url('Node_L.png');
+}
+
+.node.M {
+    background-image: url('Node_M.png');
 }
 
 .line.A {
@@ -194,8 +215,20 @@ table.flow32 {
     background-image: url('Line_K.png');
 }
 
+.line.L {
+    background-image: url('Line_L.png');
+}
+
+.line.M {
+    background-image: url('Line_M.png');
+}
+
 .pass-B {
     background-image: url('Pass_B.png');
+}
+
+.pass-M {
+    background-image: url('Pass_M.png');
 }
 
 .split.E {
@@ -226,6 +259,10 @@ table.flow32 {
     background-image: url('Split_Left_H.png');
 }
 
+.split-left.M {
+    background-image: url('Split_Left_M.png');
+}
+
 .split-right.A {
     background-image: url('Split_Right_A.png');
 }
@@ -254,8 +291,16 @@ table.flow32 {
     background-image: url('Split_Right_I.png');
 }
 
+.split-right.M {
+    background-image: url('Split_Right_M.png');
+}
+
 .merge-right-B.A {
     background-image: url('Merge_A_Right_B.png');
+}
+
+.merge-right-M.A {
+    background-image: url('Merge_A_Right_M.png');
 }
 
 .merge-right-C.F {
@@ -312,4 +357,12 @@ table.flow32 {
 
 .end.K {
     background-image: url('End_K.png');
+}
+
+.end.L {
+    background-image: url('End_L.png');
+}
+
+.end.M {
+    background-image: url('End_M.png');
 }
