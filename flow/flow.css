@@ -40,18 +40,31 @@ table.flow32 {
     /* C #008000 */
 }
 
-.start.merge-left-D.E {
+.start.E.merge-left-D {
     background-image: url('Start_E_Left_D.png');
     /* E #AA0000 */
 }
 
-.start.merge-right-D.E {
+.start.E.merge-right-D {
     background-image: url('Start_E_Right_D.png');
+    /* E #AA0000 */
+}
+
+.start.E.merge-right-F {
+    background-image: url('Start_E_Right_F.png');
     /* E #AA0000 */
 }
 
 .start.F {
     background-image: url('Start_F.png');
+}
+
+.start.F.merge-left-A {
+    background-image: url('Start_F_Left_A.png');
+}
+
+.start.F.merge-left-D {
+    background-image: url('Start_F_Left_D.png');
 }
 
 .start.F.merge-left-E {
@@ -129,6 +142,10 @@ table.flow32 {
 
 .node.D {
     background-image: url('Node_D.png');
+}
+
+.node.D.merge-right-E {
+    background-image: url('Node_D_Right_E.png');
 }
 
 .node.E {
@@ -239,6 +256,10 @@ table.flow32 {
     background-image: url('Pass_B.png');
 }
 
+.pass-D {
+    background-image: url('Pass_D.png');
+}
+
 .pass-M {
     background-image: url('Pass_M.png');
 }
@@ -261,6 +282,10 @@ table.flow32 {
 
 .split-left.D {
     background-image: url('Split_Left_D.png');
+}
+
+.split-left.E {
+    background-image: url('Split_Left_E.png');
 }
 
 .split-left.F {
