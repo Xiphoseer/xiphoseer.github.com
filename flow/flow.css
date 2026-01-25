@@ -97,6 +97,11 @@ table.flow32 {
     /* #800080 */
 }
 
+.start.I.merge-left-H {
+    background-image: url('Start_I_Left_H.png');
+    /* #800080 */
+}
+
 .start.J {
     background-image: url('Start_J.png');
     /* #000000 */
@@ -340,6 +345,10 @@ table.flow32 {
 
 .split-right.G {
     background-image: url('Split_Right_G.png');
+}
+
+.split-right.H {
+    background-image: url('Split_Right_H.png');
 }
 
 .split-right.I {
